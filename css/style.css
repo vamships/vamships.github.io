@@ -1,0 +1,130 @@
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Lato:100,400,300,700');
+/* --- pe-icon-7-stroke --- */
+
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Garamond';
+	font-weight: 400;
+    color: #333;
+    background: #fff;
+	font-size: 14px;
+    line-height: 1.8em;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+  font-family: 'Lato', sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+
+/* ===========
+Typo
+============= */
+
+h1 {
+	font-size: 38px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 32px;
+}
+h4 {
+	font-size: 28px;
+}
+h5 {
+	font-size: 24px;
+}
+h6 {
+	font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+	color: #333;
+	line-height: 1.6em;
+}
+
+
+
+p {
+    margin: 0 0 20px;
+
+}
+
+
+a {
+    color: #0776ef;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    color: #ef9207;
+    text-decoration: none;
+}
+
+.pub{
+    margin: 0 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #eee;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+.pub:hover{
+	border: 2px solid #aaa;
+	color: #000;
+	background: #ddd;
+	opacity: 1;
+}
+
+.pub-title{
+	font-size: 15px;
+}
+
+
+/* ===========================
+--- Intro
+============================ */
+
+.intro {
+	width:100%;
+	position:relative;
+}
+
+.intro-content {
+	padding:20px 0 20px;
+}
